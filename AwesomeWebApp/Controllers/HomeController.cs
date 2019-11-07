@@ -20,7 +20,7 @@ namespace AwesomeWebApp.Controllers
    	            bad2 = bad2 * bad2;
     	        bad++;
 
-            } while (bad < 100);
+            } while (bad < 1000);
             return View();
         }
 
