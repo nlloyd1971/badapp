@@ -12,8 +12,8 @@ namespace AwesomeWebApp.Controllers
 
         public ActionResult Index()
         {
-            int bad = 0;
-            int bad2 = 10;
+            double bad = 0;
+            double bad2 = 10;
             do
             {
    	        bad2 = bad2 * bad2 
