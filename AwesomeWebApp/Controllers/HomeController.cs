@@ -21,6 +21,7 @@ namespace AwesomeWebApp.Controllers
     	        bad++;
 
             } while (bad < 1000);
+            ViewData["X"] = DateTime.Now;
             return View();
         }
 
