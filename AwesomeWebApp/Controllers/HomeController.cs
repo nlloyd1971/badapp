@@ -12,6 +12,13 @@ namespace AwesomeWebApp.Controllers
 
         public ActionResult Index()
         {
+            int bad = 0;
+            int bad2 = 10;
+            do
+            {
+   	        bad2 = bad2 * bad2 
+    	    bad++;
+            } while (bad < 10);
             return View();
         }
 
